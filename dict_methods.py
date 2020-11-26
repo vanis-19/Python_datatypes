@@ -1,0 +1,22 @@
+d={}
+print(type(d))
+d[1]='vani'
+d[2]='C'
+d[3]='B'
+print(d)
+d1={'name':'Ram', 89:90}
+d.update(d1)
+print(d)
+d.update({'name':'Arjun'})
+print(d)
+d.setdefault('age',78)
+print(d)
+print(d.popitem())
+print(d.pop('name'))
+print(d)
+print(d.keys())
+print(d.values())
+print(d.items())
+print(d[1])
+print(d.get(10,'m'))
+print(len(d))
