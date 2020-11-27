@@ -39,3 +39,34 @@ l1=['a','b', 'c','d']
 l2=[1,2,3]
 result = dict(zip(l1, cycle(l2)))
 print(result)
+
+#var=5
+#s='hi'
+#print(var+s)
+
+
+#reverse of each word
+s='Bangalore is@#$!123 locked again in jul2020'
+s=s.split()
+l=[]
+for i in s:
+    l.append(i[::-1])
+output=' '.join(l)
+print(output)  
+
+#remove the spaces
+l = ['\rgfg\t\n', 'is\n', '\t\tbest\r']
+res = list(map(str.strip, l))
+print("List after removal of special characters : " + str(res)) 
+
+#Convert list of strings and characters to list of characters
+list1=['gfg', 'i', 's', 'be', 's', 't']
+res=[i for ele in list1 for i in ele]
+print(res)
+
+res=list(''.join(list1))
+print(res)
+
+
+
+
